@@ -2,9 +2,9 @@
  * @author naohito-T
  * @desc   閏年対応のselectを作成します。
  * @use    html側で以下の<div>要素を作成しこのスクリプトを読み込んで下さい。
- *         1. `<div id="year"></div>`
- *         2. `<div id="month"></div>`
- *         3. `<div id="day"></div>`
+ *         1. `<select id="year" name="year"></select>`
+ *         2. `<select id="month" name="month"></select>`
+ *         3. `<select id="day" name="day"></select>`
  */
 (() => {
   // 4の倍数の年はうるう年でよいが、2100年や2200年は平年として扱う(西暦の年号が100で割り切れて400で割り切れない年)

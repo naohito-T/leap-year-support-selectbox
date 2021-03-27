@@ -5,6 +5,7 @@
  *         1. `<select id="year" name="year"></select>`
  *         2. `<select id="month" name="month"></select>`
  *         3. `<select id="day" name="day"></select>`
+ *         ※注意 <select>タグより下でscriptを読み込むこと。
  */
 (() => {
   // 4の倍数の年はうるう年でよいが、2100年や2200年は平年として扱う(西暦の年号が100で割り切れて400で割り切れない年)
